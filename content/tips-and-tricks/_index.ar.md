@@ -1,6 +1,6 @@
 ---
 title: نصايح وحيل
-icon: ti-package
+icon: ti-thumb-up
 description: نصايح وحيل
 type: docs
 weight: 5

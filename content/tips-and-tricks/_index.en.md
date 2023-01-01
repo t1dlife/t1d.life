@@ -1,6 +1,6 @@
 ---
 title: Tips and Tricks
-icon: ti-package
+icon: ti-thumb-up
 description: Tips and Tricks
 type: docs
 weight: 5
