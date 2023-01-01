@@ -142,9 +142,9 @@ Languages:
     params:
       banner:
         title: UNICEF Inventory Theme
-        subtitle: asd #Documentation and an example site of the UNICEF Inventory Theme. Built for Hugo, a static site generator.
+        subtitle: Knowledge base site for T1D related topics with multiple topics and articles covering different subjects related to the life of T1D.
         bg_image: images/banner.jpg
-        placeholder: Have a question? Search the site here.
+        placeholder: Search the site here
       cta:
         enable: true
         title: Formspree integration
@@ -202,9 +202,9 @@ Languages:
     params:
       banner:
         title: حياة سكر نوع أول
-        subtitle: asd
+        subtitle: موقع قاعدة المعرفة للموضوعات المتعلقة بالنوع الأول من مرض السكري مع مواضيع ومقالات متعددة تغطي مواضيع مختلفة تتعلق بحياة مرض السكري من النوع الأول.
         bg_image: images/banner.jpg
-        placeholder: Have a question? Search the site here.
+        placeholder: إبحث فى الموقع من هنا
       cta:
         enable: true
         title: Formspree integration
