@@ -1,0 +1,50 @@
+{{ "<!-- footer -->" | safeHTML }}
+<footer class="section bg-primary p-4 mt-5">
+  {{ $orgName:= site.Params.brand.parent_org_name }}
+  {{ $orgLegal:= site.Params.brand.parent_org_url_legal }}
+  {{ $orgUrl:= site.Params.brand.parent_org_url }}
+  <div class="container">
+    <div class="row align-items-center">
+    <div class="col-md-3 text-md-left text-center">
+       <ul>
+        <li><a class="nav-link text-white" href="{{ site.BaseURL | relLangURL }}">{{ .Site.Params.home | markdownify }}</a></li>
+        {{ range site.Menus.main }}
+          {{if not .HasChildren}} 
+            <li class="nav-item">
+              <a class="nav-link text-white text-uppercase" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+            </li>
+          {{ end }}
+        {{ end }}
+       </ul>
+      </div>
+      <div class="col-md-6 text-md-center text-center">
+       <p class="mb-md-0 mb-4 text-white">{{ .Site.Params.footer.description | markdownify }}</p>
+      </div>
+      <div class="col-md-3 text-md-right text-center">
+        <ul class="text-white">
+          <li class="nav-item">
+              <a class="nav-link text-white font-weight-bold px-0" href="{{ $orgUrl }}">{{ $orgName }}</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link text-white font-weight-bold px-0" href="{{ .Site.Params.footer.mainSite }}">{{ .Site.Params.footer.mainSiteName }}</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link text-white font-weight-bold px-0" href="{{ $orgLegal }}">Legal</a>
+              <p class="h6 text-md-right font-weight-light">{{ i18n "footer.legal" . }}</p>
+          </li>
+        </ul>
+        <ul class="list-inline">
+          {{ range .Site.Params.social }}
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="{{ .link | safeURL }}" aria-label="{{ .name }}"><i class="{{ .icon }}"></i></a></li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <p class="text-md-center text-center text-white mt-3 h6 font-italic">{{ .Site.Params.copyright | markdownify }}</p>
+</footer>
+{{ "<!-- /footer -->" | safeHTML }}
+
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>

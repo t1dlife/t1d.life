@@ -9,7 +9,7 @@
 # --- base website settings ---
 
 baseURL: https://t1d.life/
-title: حياة سكر نوع أول
+title: T1D.Life
 theme: inventory
 languageCode: ar-eg
 defaultContentLanguage: ar
@@ -181,24 +181,24 @@ Languages:
           hasChildren: true
         # Sub-pages in this drop-down should correspond to categories created in /content/
         - name: 1. Introduction
-          parent: pages
+          parent: Subjects
           weight: 10
           url: introduction
         - name: 2. Supplies
-          parent: pages
+          parent: Subjects
           weight: 20
           url: supplies
         - name: 3. Carb Counting
-          parent: pages
+          parent: Subjects
           weight: 30
           url: carb-counting
         - name: 4. Food Carbs
-          parent: pages
+          parent: Subjects
           weight: 40
           url: food-carbs
         - name: 5. Tips and Tricks
-          parent: pages
-          weight: 40
+          parent: Subjects
+          weight: 50
           url: tips-and-tricks
 
 ############################# Arabic #############################
@@ -262,6 +262,6 @@ Languages:
           url: food-carbs
         - name: 5. نصايح وحيل
           parent: موضوعات
-          weight: 40
+          weight: 50
           url: tips-and-tricks
 
