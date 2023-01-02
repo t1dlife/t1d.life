@@ -75,8 +75,8 @@ params:
   logo: ""
 
   # OpenGraph data
-  description: UNICEF Inventory Theme. This Hugo-powered static site is documentation for and an example of the UNICEF Inventory Theme.
-  author: UNICEF Office of Innovation, and others
+  description: Knowledge base site for T1D related topics with multiple topics and articles covering different subjects related to the life of T1D.
+  author: T1D Parent
   # Tip: Find a royalty-free image from unsplash.com for an OpenGraph image.
   image: "images/banner.jpg"
 
@@ -101,12 +101,12 @@ params:
 
   # brand and identity information
   brand:
-    parent_org_name: UNICEF Global
-    parent_org_url: https://www.unicef.org/
-    parent_org_url_legal: https://www.unicef.org/legal
+    parent_org_name: T1D Life
+    parent_org_url: https://t1d.life/
+    parent_org_url_legal: https://t1d.life/legal
   footer:
-    mainSite: https://www.unicef.org/innovation/
-    mainSiteName: UNICEF Office of Innovation
+    mainSite: https://t1d.life/about
+    mainSiteName: T1D Life
 
 
 # --- social platform settings ---
@@ -114,11 +114,17 @@ params:
 
   social:
     - icon: ti-github
-      name: UNICEF Inventory Theme on GitHub
-      link: https://github.com/unicef/inventory-hugo-theme
+      name: T1D Life on GitHub
+      link: https://github.com/t1dlife/t1d.life
     - icon: ti-twitter-alt
-      name: "@UNICEFinnovate on Twitter"
-      link: https://twitter.com/UNICEFinnovate
+      name: "T1D Life on Twitter"
+      link: https://twitter.com/t1d.life
+    - icon: ti-twitter-alt
+      name: "T1D Life on Facebook"
+      link: https://twitter.com/t1d.life
+    - icon: ti-twitter-alt
+      name: "T1D Life on Youtube"
+      link: https://twitter.com/t1d.life
 
 
 # --- taxonomy settings ---
@@ -141,20 +147,20 @@ Languages:
     copyright: "Copyright &copy; 2020-2022 a Hugo theme by [UNICEF Office of Innovation](https://www.unicef.org/innovation/)"
     params:
       banner:
-        title: UNICEF Inventory Theme
+        title: Type One Diabetes (T1D) Life
         subtitle: Knowledge base site for T1D related topics with multiple topics and articles covering different subjects related to the life of T1D.
         bg_image: images/banner.jpg
         placeholder: Search the site here
       cta:
         enable: true
-        title: Formspree integration
-        content: Create a quick and easy contact form for site visitors to get in touch using built-in Formspree integration.
+        title: Contact us
+        content: Have any ideas or comments to share with us? Feel free to contact us through pressing the bellow button
         button:
           enable: true
           label: See the form
           link: contact
       footer:
-        description: UNICEF Inventory Theme documentation and example site. Powered by Hugo, a static site generator. An open source tool from the UNICEF Office of Innovation, Ventures Team.
+        description: Knowledge base site for T1D related topics with multiple topics and articles covering different subjects related to the life of T1D.
 
     # --- navigation menu ---
     menu:
@@ -165,31 +171,35 @@ Languages:
         - name: Contact
           weight: 20
           url: contact
+        - name: About
+          weight: 30
+          url: about
 
-        - name: pages
-          weight: 50
+        - name: Subjects
+          weight: 40
           url: pages
           hasChildren: true
         # Sub-pages in this drop-down should correspond to categories created in /content/
-        - name: 1. About
+        - name: 1. Introduction
           parent: pages
           weight: 10
-          url: about
-        - name: 2. Features
+          url: introduction
+        - name: 2. Supplies
           parent: pages
           weight: 20
-          url: features
-        - name: 3. Installation
+          url: supplies
+        - name: 3. Carb Counting
           parent: pages
           weight: 30
-          url: install
-        - name: 4. Contributing
+          url: carb-counting
+        - name: 4. Food Carbs
           parent: pages
-          weight: 50
-          url: contributing
-        - name: Posts
-          weight: 60
-          url: start
+          weight: 40
+          url: food-carbs
+        - name: 5. Tips and Tricks
+          parent: pages
+          weight: 40
+          url: tips-and-tricks
 
 ############################# Arabic #############################
   ar:
@@ -207,47 +217,51 @@ Languages:
         placeholder: إبحث فى الموقع من هنا
       cta:
         enable: true
-        title: Formspree integration
-        content: Create a quick and easy contact form for site visitors to get in touch using built-in Formspree integration.
+        title: تواصل معنا
+        content: لو عندك أفكار أو ملحوظات حابب تشاركها معنا ممكن تواصل معنا عن طريق الضغط على الزر أسفل
         button:
           enable: true
           label: See the form
           link: contact
       footer:
-        description: UNICEF Inventory Theme documentation and example site. Powered by Hugo, a static site generator. An open source tool from the UNICEF Office of Innovation, Ventures Team.
+        description: موقع قاعدة المعرفة للموضوعات المتعلقة بالنوع الأول من مرض السكري مع مواضيع ومقالات متعددة تغطي مواضيع مختلفة تتعلق بحياة مرض السكري من النوع الأول.
 
     # --- navigation menu ---
     menu:
       main:
-        - name: FAQ
+        - name: أسئلة متكررة
           weight: 10
           url: faq
-        - name: Contact
+        - name: تواصل معنا
           weight: 20
           url: contact
+        - name: عنا
+          weight: 30
+          url: about
 
-        - name: pages
-          weight: 50
+        - name: موضوعات
+          weight: 40
           url: pages
           hasChildren: true
         # Sub-pages in this drop-down should correspond to categories created in /content/
-        - name: 1. About
-          parent: pages
+        - name: 1. مقدمة
+          parent: موضوعات
           weight: 10
-          url: about
-        - name: 2. Features
-          parent: pages
+          url: introduction
+        - name: 2. مستلزمات
+          parent: موضوعات
           weight: 20
-          url: features
-        - name: 3. Installation
-          parent: pages
+          url: supplies
+        - name: 3. حساب الكارب
+          parent: موضوعات
           weight: 30
-          url: install
-        - name: 4. Contributing
-          parent: pages
-          weight: 50
-          url: contributing
-        - name: مقالات
-          weight: 60
-          url: start
+          url: carb-counting
+        - name: 4. كارب الطعام
+          parent: موضوعات
+          weight: 40
+          url: food-carbs
+        - name: 5. نصايح وحيل
+          parent: موضوعات
+          weight: 40
+          url: tips-and-tricks
 
