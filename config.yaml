@@ -161,6 +161,7 @@ Languages:
           link: contact
       footer:
         description: Knowledge base site for T1D related topics with multiple topics and articles covering different subjects related to the life of T1D.
+      menu_title: Menu
 
     # --- navigation menu ---
     menu:
@@ -225,6 +226,7 @@ Languages:
           link: contact
       footer:
         description: موقع قاعدة المعرفة للموضوعات المتعلقة بالنوع الأول من مرض السكري مع مواضيع ومقالات متعددة تغطي مواضيع مختلفة تتعلق بحياة مرض السكري من النوع الأول.
+      menu_title: القائمة
 
     # --- navigation menu ---
     menu:
