@@ -6,7 +6,7 @@ downloadBtn: false
 # search keywords
 keywords: ["diabetes", "t1d", "misconceptions"]
 ---
-<div style="text-align: right">
+<div style="direction: rtl; text-align: right">
 للأسف فهمنا العام للسكري فيه مفاهيم كتير مش صحيحة. هحاول اوضح بعض المفاهيم الخاطئة وايه الصواب اللى المفروض نعرفه بشكل عامل عن السكري.
 
 |❌ خطأ|✅ صواب|
