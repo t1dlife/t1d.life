@@ -5,6 +5,8 @@ tags: ["diabetes", "t1d"]
 downloadBtn: false
 # search keywords
 keywords: ["diabetes", "t1d"]
+hide_edit_btn: true
+
 ---
 
 <div style="direction: rtl; text-align: right">

@@ -5,6 +5,8 @@ tags: ["diabetes", "t1d"]
 downloadBtn: false
 # search keywords
 keywords: ["diabetes", "t1d"]
+hide_edit_btn: true
+
 ---
 Our body needs energy for vital operations throughout the day. The means that provide the body with energy is eating and drinking. And this energy enters in different images, such as fats, protein, and carbohydrates.
 Carbohydrates (or carbs, a common acronym in the world of diabetes) are the most important source of energy. Here comes the question: Why?. The answer is because the body converts carbohydrates into a type of sugar, which is glucose, and this is the main source of energy for the human brain.

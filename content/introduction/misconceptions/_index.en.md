@@ -5,6 +5,8 @@ tags: ["diabetes", "t1d", "misconceptions"]
 downloadBtn: false
 # search keywords
 keywords: ["diabetes", "t1d", "misconceptions"]
+hide_edit_btn: true
+
 ---
 
 Unfortunately, our general understanding of diabetes contains many incorrect concepts. I will try to clarify some misconceptions and what is right that we should know about diabetes.
