@@ -7,7 +7,7 @@
     <div class="row align-items-center">
     <div class="col-md-3 text-md-left text-center">
        <ul>
-        <li><a class="nav-link text-white" href="{{ site.BaseURL | relLangURL }}">{{ .Site.Params.home | markdownify }}</a></li>
+        <li><a class="nav-link text-white" href="{{ site.BaseURL | relLangURL }}">{{ .Site.Params.home }}</a></li>
         {{ range site.Menus.main }}
           {{if not .HasChildren}} 
             <li class="nav-item">
