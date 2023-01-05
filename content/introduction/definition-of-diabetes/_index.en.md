@@ -6,6 +6,7 @@ downloadBtn: false
 # search keywords
 keywords: ["diabetes", "t1d"]
 hide_edit_btn: true
+weight: 1
 
 ---
 Our body needs energy for vital operations throughout the day. The means that provide the body with energy is eating and drinking. And this energy enters in different images, such as fats, protein, and carbohydrates.

@@ -6,6 +6,7 @@ downloadBtn: false
 # search keywords
 keywords: ["diabetes", "t1d"]
 hide_edit_btn: true
+weight: 2
 
 ---
 The pancreas is the organ responsible for insulin secretion in the body. Throughout the day, whether you are sleeping or awake, eating or playing sports, and whatever your health condition, whether healthy or for example, you have a cold period, it is working to see how much insulin the body needs, secrete and maintain the stability of the level of glucose sugar in the body in an impressive way. We add more verses and say that specifically the beta cells in the pancreas are responsible for insulin secretion. Beta cells represent approximately 50% to 80% of the pancreas.

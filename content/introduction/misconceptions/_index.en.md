@@ -6,6 +6,7 @@ downloadBtn: false
 # search keywords
 keywords: ["diabetes", "t1d", "misconceptions"]
 hide_edit_btn: true
+weight: 3
 
 ---
 
