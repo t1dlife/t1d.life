@@ -2,7 +2,8 @@
 {{ $.Scratch.Add "path" .Site.BaseURL }}
 <div class="breadcrumbs">
    <a href="{{ .Site.BaseURL}}">{{ .Site.Params.home }}</a>
-  {{ range $index, $element := split $url "/" }} {{$element}}
+   {{$url}}
+  {{ range $index, $element := split $url "/" }} 
     {{ $.Scratch.Add "path" $element }}
       {{ if ne $element "" }}
       &gt; <a href="{{ $.Scratch.Get "path" }}" class="breadcrumbLink">{{ . }}</a>
