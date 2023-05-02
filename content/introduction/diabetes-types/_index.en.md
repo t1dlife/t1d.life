@@ -9,12 +9,21 @@ hide_edit_btn: true
 weight: 2
 
 ---
-The pancreas is the organ responsible for insulin secretion in the body. Throughout the day, whether you are sleeping or awake, eating or playing sports, and whatever your health condition, whether healthy or for example, you have a cold period, it is working to see how much insulin the body needs, secrete and maintain the stability of the level of glucose sugar in the body in an impressive way. We add more verses and say that specifically the beta cells in the pancreas are responsible for insulin secretion. Beta cells represent approximately 50% to 80% of the pancreas.
-Sugar has 3 main types
-Type 1 Diabetes
-It is the result of an immune defect that the body attacks and loses beta cells. Therefore, the body cannot secrete insulin or secrete in a very small amount as a result of this loss. There is no specific cause for type 1 diabetes. A large proportion of patients with the disease were either healthy or of ideal weight when the symptoms of the disease began to appear. Diabetes is a first type that affects children or adults, but it is traditionally known as juvenile diabetes because most of those affected are children. Insulin for sugar is the first type, it is life, and whoever cannot live his day normally and safely without it.
-Type 2 Diabetes
-It is due to the presence of anti-insulin resistance, lack of insulin secretion, or both. Obesity and advanced age are among the main causes of type 2 diabetes. Also, family history with the disease has an impact on the possibility of infection. Increasing physical activity and reducing carbohydrate intake will help reduce insulin resistance in case of type 2 diabetes. With some medications that stimulate insulin secretion, this is according to the condition, readings, and glucose analysis. Most cases, over time, require external insulin to be injected into the body. But this does not mean that there are cases where you are able to live with sugar, another type, without external insulin, by increasing physical activity and following a healthy diet.
-Gestational Diabetes
-It is similar to the second type in terms of the lack of insulin and the weak response of the body to the effect of insulin. But from the generosity of our Lord, it disappears or the mother's condition improves after giving birth. And it needs careful medical monitoring during pregnancy to avoid complications for the mother or the fetus.
-Last but not least. Diabetes is a first type, and sugar is a second type. These are chronic diseases that a person coexists with, accompanies, and tames in order to live a normal life. Most of the time, gestational diabetes is temporary if monitored and monitored properly.
+
+The pancreas is responsible for insulin secretion in the body, helping to maintain the stability of glucose levels in the body. Specifically, beta cells in the pancreas are responsible for insulin secretion, making up 50% to 80% of the pancreas.
+
+There are three main types of diabetes:
+
+## Type 1 Diabetes
+
+Type 1 diabetes is the result of an immune defect where the body attacks and loses beta cells. As a result, the body cannot secrete insulin, or only secretes a very small amount. There is no specific cause for type 1 diabetes, and it can affect children or adults, but is traditionally known as juvenile diabetes because it affects mostly children. Insulin is a necessity for those with type 1 diabetes in order to maintain glucose levels.
+
+## Type 2 Diabetes
+
+Type 2 diabetes is due to anti-insulin resistance, lack of insulin secretion, or both. Obesity and advanced age are among the main causes of type 2 diabetes, and family history can impact the possibility of infection. Increasing physical activity and reducing carbohydrate intake can help reduce insulin resistance in cases of type 2 diabetes. Some medications that stimulate insulin secretion may also be prescribed, depending on the patient's condition and glucose analysis. Most cases, however, eventually require external insulin to be injected into the body. In some cases, patients can live with type 2 diabetes without external insulin by increasing physical activity and following a healthy diet.
+
+## Gestational Diabetes
+
+Gestational diabetes is similar to type 2 diabetes in terms of lack of insulin and weak response to the effect of insulin. However, it typically disappears or improves after giving birth, and requires careful medical monitoring during pregnancy to avoid complications for the mother or fetus.
+
+In conclusion, diabetes is a chronic disease that a person must learn to live with, manage, and tame in order to live a normal life. While gestational diabetes is typically temporary if properly monitored, type 1 and type 2 diabetes are life-long conditions that require ongoing care and treatment.
